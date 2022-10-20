@@ -1,2 +1,2 @@
 # Survival
-Unity Game about horror 
+Unity Game Application
