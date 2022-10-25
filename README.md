@@ -14,11 +14,11 @@ Unity Game Application
 + Added Teleport boxes into "HouseTest" to be used later
 
 Bug Fixes
-~ BGM (background Music) will know destroy when loading into a new scene
-~ Player clipping through walls in "HouseTest"
-~ Player speed being to slow to move 
-~ Player gravitational pull fixed
-~ Start loads into a actual scene to replace "StartGame" with "HouseTest"
+- BGM (background Music) will know destroy when loading into a new scene
+- Player clipping through walls in "HouseTest"
+- Player speed being to slow to move 
+- Player gravitational pull fixed
+- Start loads into a actual scene to replace "StartGame" with "HouseTest"
 
 
 Removed Content
