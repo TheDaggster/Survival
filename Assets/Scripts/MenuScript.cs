@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
@@ -8,7 +7,7 @@ public class MenuScript : MonoBehaviour
 
     public void Startup()
     {
-        SceneManager.LoadScene("Cutscene1"); // Need to add scene!
+        SceneManager.LoadScene("HouseTest"); // Scene Added
         Debug.Log("Loading game!");
         // This makes it when a button is given the command Start() it will trigger a command to load into the 
         // next scene change in game and the debug log is to check the game is loading correctly into next scene.
