@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HouseTest.unity
     guid: 93a15354fe9e01d479622c61dd4aea39
+  - enabled: 1
+    path: Assets/Scenes/HouseTest2.unity
+    guid: a0aca00d6c3e67d4d9732837aeebbeca
+  - enabled: 1
+    path: Assets/Scenes/TestHouseFlip.unity
+    guid: 7aae30b22b02b2e4588b500637f99935
   m_configObjects: {}
