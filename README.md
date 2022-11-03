@@ -23,6 +23,15 @@ Bug fixes
 - Removed Weapon Asset as it was deemed unusuable and added just a firepoint to simplfy work
 - Fixed Shooting Not destroying on Collision with 2D Sprite colliders 
 
+
+Removed Content
+- Weapon Placeholder
+- Unsuable Movement system and replaced with a older previous build 
+
+Bugs - 
+1. Movement is now Tap only as in you cant hold down the button to go forward but have to tap. (Slowly)
+
+
 ## NEW Update Log 31/10/22 The Bug Fix Update:
 
 + Added New Scenes "HouseTest2" and "TestHouseFlip" (HouseTest2 is a exstension to the level and TestHouseFlip being a Shortcut fix for a new script)
