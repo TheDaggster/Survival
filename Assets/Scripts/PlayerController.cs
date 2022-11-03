@@ -4,14 +4,16 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
    public float health = 100f;
-   public float speed = 500f;
+   public float speed = 600f;
+   public Weapon weapon;
    private Vector2 respawn;
    private Rigidbody2D body;
-   private static GameObject Instance;
+
 
    void Awake()
    {
       body = GetComponent<Rigidbody2D>();
+      if (SceneManager.GetActiveScene().name == "Main Menu") Destroy(gameObject);
    }
 
 
@@ -32,8 +34,22 @@ public class PlayerController : MonoBehaviour
 
    private void Update()
    {
-      body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
-      if (SceneManager.GetActiveScene().name == "Main Menu") Destroy(gameObject);
-   }
+      if (Input.GetKeyDown(KeyCode.A))
 
+      {
+
+         transform.localRotation = Quaternion.Euler(0, 180, 0);
+         transform.Translate(Vector2.right * (speed * Time.deltaTime)); 
+
+      }
+
+      if (Input.GetKeyDown(KeyCode.D))
+
+      {
+
+         transform.localRotation = Quaternion.Euler(0, 0, 0);
+         transform.Translate(Vector2.right * (speed * Time.deltaTime));
+      }
+
+   }
 }
