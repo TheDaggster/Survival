@@ -1,6 +1,28 @@
 # Survival
 Unity Game Application
 
+
+
+
+
+## NEW update log 3/11/22  Small Health + Shooting Update:
+
++ Added Working Health Indicator into all rooms 
++ Added Working Shoot script (Pressing "Fire1" or Left mouse click shoots a bullet out of the survivor capsule
++ Added Working Side to side shooting 
++ Shooting also means if shot at a 2D Capsule the bullet will destroy (this to intake damage which will be added later)
+
+
+Bug fixes 
+- Fixed "Droopy" shooting (shots would fall flat to the floor instead of going in a straight line
+- Fixed Shooting only one direction 
+- Fixed Shooting would cause the player to spin 360 degrees in the rooms 
+- Fixed Player gravity by Freezing Z axis 
+- Fixed Shooting button not refering to "Fire1" from WhenMousebuttonPress to WhenButtonPress
+- Fixed Health Sliders
+- Removed Weapon Asset as it was deemed unusuable and added just a firepoint to simplfy work
+- Fixed Shooting Not destroying on Collision with 2D Sprite colliders 
+
 ## NEW Update Log 31/10/22 The Bug Fix Update:
 
 + Added New Scenes "HouseTest2" and "TestHouseFlip" (HouseTest2 is a exstension to the level and TestHouseFlip being a Shortcut fix for a new script)
