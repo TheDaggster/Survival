@@ -1,7 +1,23 @@
 # Survival
 Unity Game Application
 
+## NEW update log 10/11/22 Gun Working + Enemy take Damage :
++ Player movement is now using new rotation as discussed before 
++ Pressing "Fire1" now creates a bullet sprite it now can do 20 damage towards enemys
++ Taking 100+ damage to the enemy now destroys a enemey sprite in the Game
++ Teleportation rework made.
 
+Bug Fixes 
+- Fixed Fire1 not spawning bullets 
+- Fixed player not effecting damage but destroying bullets not occuring a damage intake to the enemy
+- Fixed Player Rotation Swapping firepoint sides
+- Fixed Player rotational firepoints for both sides. 
+
+Removed Content 
+- Logs
+
+Bugs - 
+1. Movement is now Tap only as in you cant hold down the button to go forward but have to tap. (Slowly)
 
 
 
