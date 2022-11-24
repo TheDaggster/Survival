@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
    
    private void Update()
    {
-      if (Input.GetKeyDown(KeyCode.A))
+      if (Input.GetKey(KeyCode.A))
 
       {
 
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
 
       }
 
-      if (Input.GetKeyDown(KeyCode.D))
+      if (Input.GetKey(KeyCode.D))
 
       {
 
