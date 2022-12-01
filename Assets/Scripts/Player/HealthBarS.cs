@@ -31,5 +31,18 @@ public class HealthBarS : MonoBehaviour
     // this is used to indicate the fill amount since our health is a slider UI initially it requires to know our
     // MaxHealth (100) and our currentHealth (this can be determined on if the player is damaged)
   }
+  
+  void Tdp (int damage)
+  {
+    currentHealth -= damage;
+  }
+  
+  private void OnCollisionEnter(Collision collision)
+  {
+    if (collision.collider.gameObject.CompareTag("Enemy"))
+    {
+      Tdp (40);
+    }
+  }
 }
 
